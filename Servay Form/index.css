@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-container {
+    background-color: blue;
+    margin: 30px;
+}
+.container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.form label {
+    display: block;
+    font-weight: bold;
+    text-align: left;
+}
+
+.form input[type="text"],
+.form input[type="date"],
+.form select,
+.form input[type="email"],
+.form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.form button {
+    width: 49%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form button[type="reset"] {
+    background-color: #EFEFEF;
+    color: #333;
+}
+.main-container {
+    background-color: blue;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
